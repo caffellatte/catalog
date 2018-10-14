@@ -1,0 +1,23 @@
+{
+  "name": "catalog",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/caffellatte/catalog.git",
+  "author": "caffellatte <m.g.lutsenko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "feedparser": "^2.2.9",
+    "level": "^4.0.0",
+    "multilevel": "^7.2.3",
+    "request": "^2.88.0",
+    "rss-parser": "^3.5.2"
+  },
+  "scripts": {
+    "main": "node ./index.js",
+    "avitoUpdate": "node ./lib/avitoUpdate.js",
+    "avitoAnalyze": "node ./lib/avitoAnalyze.js",
+    "kalugahouseUpdate": "node ./lib/kalugahouseUpdate.js",
+    "domofondUpdate": "node ./lib/kalugahouseUpdate.js",
+    "test": "jest"
+  }
+}
